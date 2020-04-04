@@ -9,23 +9,16 @@
     
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/style.css">
-    
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -63,7 +56,6 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#features-section" class="nav-link">Features</a></li>
                 <!--<li class="has-children">
                   <a href="#about-section" class="nav-link">About Us</a>
                   <ul class="dropdown arrow-top">
@@ -82,8 +74,8 @@
                 </li>
               -->
                 <!--<li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>-->
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                <li><a href="/blogs" class="nav-link">Blog</a></li>
+                <li><a href="/contact.html" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -108,21 +100,23 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="images/img_1.jpg" alt="Image" class="img-fluid">
-              <b>Europe is an absolutely beautiful place to visit! During 2019, I had the pleasure of visiting Europe for the first time, touring London, Edinburgh, and Paris from September 18th, 2019 to September 28th (10 days). Here are some details to get you started on your own trip...</b>
-              <div class="meta mb-4">Jessica Lo <span class="mx-2">&bullet;</span> Oct 10, 2020<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>...</p>
-              <p><a href="./blogs/london.html">Continue Reading...</a></p>
-            </div> 
+              <img src="/images/blog/mt_hook.jpg" alt="Image" class="img-fluid">
+              <a href="/blogs/new-zealand.html">
+              <h2>New Zealand</h2>
+              </a>
+              <b>Hiking, food, bungy jumps, and much more to see ...</b>
+              <div class="meta mb-4">Jeffery Lin<span class="mx-2">&bullet;</span> Jan 18, 2020<span class="mx-2">&bullet;</span> <a href="/blogs">Blogs</a></div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
-              <img src="images/img_2.jpg" alt="Image" class="img-fluid">
-              <h2><a href="#">Coming soon...</a></h2>
-              <div class="meta mb-4">A <span class="mx-2">&bullet;</span> Jan 18, 2020<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>...</p>
-              <p><a href="#">Continue Reading...</a></p>
-            </div>
+              <img src="/images/img_1.jpg" alt="Image" class="img-fluid">
+              <a href="/blogs/london.html">
+              <h2>UK and France</h2>
+              </a>
+              <b>Europe is an absolutely beautiful place to visit! Here are some details to get you started on your own trip...</b>
+              <div class="meta mb-4">Jessica Lo <span class="mx-2">&bullet;</span> Oct 10, 2020<span class="mx-2">&bullet;</span> <a href="/blogs">Blogs</a></div>
+            </div> 
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <div class="h-entry">
@@ -130,7 +124,6 @@
               <h2><a href="#">Coming soon...</a></h2>
               <div class="meta mb-4">A <span class="mx-2">&bullet;</span> Jan 18, 2020<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
               <p>...</p>
-              <p><a href="#">Continue Reading...</a></p>
             </div> 
           </div>
           
@@ -687,9 +680,17 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
-
-  
   <script src="js/main.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159811263-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159811263-1');
+  </script>
   
   </body>
 </html>

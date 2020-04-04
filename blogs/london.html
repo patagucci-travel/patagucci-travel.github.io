@@ -59,10 +59,8 @@
 
           <div class="col-12 col-md-9 col-xl-8 main-menu">
             <nav class="site-navigation position-relative text-right" role="navigation">
-
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#features-section" class="nav-link">Features</a></li>
+                <li><a href="/" class="nav-link">Home</a></li>
                 <!--<li class="has-children">
                   <a href="#about-section" class="nav-link">About Us</a>
                   <ul class="dropdown arrow-top">
@@ -81,7 +79,7 @@
                 </li>
               -->
                 <!--<li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>-->
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                <li><a href="/blogs" class="nav-link">Blog</a></li>
                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
               </ul>
             </nav>
@@ -104,7 +102,7 @@
             <div class="h-entry">
               <!--<img src="../images/img_1.jpg" alt="Image" class="img-fluid">-->
               <h2><a href="#">Europe in Sight</a></h2>
-              <div class="meta mb-4">Jessica Lo <span class="mx-2">&bullet;</span> October 10, 2019<span class="mx-2">&bullet;</span> <a href="blogs">Blogs</a></div>
+              <div class="meta mb-4">Jessica Lo <span class="mx-2">&bullet;</span> October 10, 2019<span class="mx-2">&bullet;</span> <a href="/blogs">Blogs</a></div>
                <p>Europe is an absolutely beautiful place to visit! During 2019, I had the pleasure of visiting Europe for the first time, touring London, Edinburgh, and Paris from September 18th, 2019 to September 28th (10 days). Here are some details to get you started on your own trip!</p>
                <p>Before you go:</p>
                 <ul class="ul-check mb-5 list-unstyled success">
@@ -149,7 +147,7 @@
               </div>
 
               <div>
-                <b>Review: Ibis Blackfriars Hotel in London: 4/5 Stars </b>
+                <b class="rev-header">Review: Ibis Blackfriars Hotel in London: 4/5 Stars </b>
                 <p><i>September 19th (Thursday) to September 21st (Saturday)</i></p>
 
                 <p>Price: We stayed at the ibis budget hotel in the Blackfriars neighborhood of London. In total, we paid $598.444 for two rooms, or $149.61 each between four people. </p>
@@ -162,7 +160,7 @@
               </div>
 
               <div>
-                <b>REVIEW: Destiny Apartments in Edinburgh: 5/5 Stars </b>
+                <b class="rev-header">Review: Destiny Apartments in Edinburgh: 5/5 Stars </b>
                 <p><i> September 21st (Saturday) to September 23rd (Monday) </i></p>
 
                 <p>Edinburgh isn’t a huge city, so it’s not split into as many neighborhoods. For us, we stayed right in the middle of Downtown Edinburgh the old medieval Edinburgh Old Town and Georgian Edinburgh New Town. This allowed us to be in a central location to explore all that the city had to offer, from the sweeping hills, to the history, to the universities, to the new establishments in town.</p>
@@ -175,14 +173,14 @@
               </div>
 
               <div>
-                <b>Scottish Whiskey Experience: 5/5 Stars</b>
+                <b>Review: Scottish Whiskey Experience: 5/5 Stars</b>
                 <p>The Scottish Whisky Experience is a must-go for most tourists to Edinburgh. The Gold Tour that we purchased includes both the Scottish Whisky Experience tour and whisky tastings. I never knew about all the various types of Scotch and which regions that they are from, so it was really fun to learn about that on a tour that was modern with many technology elements. The tour guides are educated and enthusiastic, and the end of the tour allows you to venture inside the room with the largest unopened Scotch collection in the world! Even as someone who doesn’t enjoy Scotch on the regular, I was mesmerized by all the history behind the bottles in the collection. I learned on the tour that whisky is spelled without an “e” in Scotland, but with an “e” when referring to Irish and American “whiskies”. </p>
 
                 <p>My friends who love drinking whisky would absolutely enjoyed the tour. You can even bring home a few bottles to share with family and friends.</p>
               </div>
 
               <div>
-                <b>Paris Airbnb in Marais: 5/5 Stars</b>
+                <b class="rev-header">Review: Paris Airbnb in Marais: 5/5 Stars</b>
                 <p><i>September 23rd (Monday) to September 25th (Wednesday)</i><p>
 
                 <p>We wanted to spend half of our trip in hotels, while the other half in quaint Airbnbs. This way, we would be able to experience our trip in two different ways - one in the comfort of a hotel, but another with the culture and experience behind a unique Airbnb. For Paris, we chose Superbe Appartement tres bien place in the Marais neighborhood within the 3rd Arrondissement of Paris, known for shopping, eclectic artists, dancers, and young folk.</p>
@@ -198,7 +196,7 @@
               </div>
 
               <div>
-                <b>London Airbnb in Seven Dials/Covent Garden: 4.5/5 Stars</b>
+                <b class="rev-header">Review: London Airbnb in Seven Dials/Covent Garden: 4.5/5 Stars</b>
                 <p>September 25th (Wednesday) to September 28th (Saturday)</p>
 
                 <p>For the last leg of the trip, we wanted to pick a new neighborhood in London where we would be able to explore something different than we had the first time. As a result, we chose to stay in Covent Garden, specially at an area called the Seven Dials. We booked Seven Dials, elegant Covent Garden - sleeps 6 on Airbnb at our priciest rate yet - $1117.26 total, $279.32 per person.  </p>
@@ -252,9 +250,15 @@
   <script src="../js/aos.js"></script>
   <script src="../js/jquery.fancybox.min.js"></script>
   <script src="../js/jquery.sticky.js"></script>
-
-  
   <script src="../js/main.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159811263-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-159811263-1');
+  </script>
   
   </body>
 </html>
